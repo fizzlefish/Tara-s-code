@@ -1,0 +1,35 @@
+# Python Program to Get IP Address
+
+import socket   
+
+hostname = socket.gethostname()   
+
+IPAddr = socket.gethostbyname(hostname)   
+
+print("Your Computer Name is:" + hostname)   
+
+print("Your Computer IP Address is:" + IPAddr)   
+
+ 
+
+portList.sort()
+
+print portlist
+
+(21, 25, 80)
+
+pos = portlist.index(80)
+
+print "(+) There are "+str(pos)+" ports to scan before 80."
+
+(+) There are 2 ports to scan before 80.
+
+print portlist
+
+(21, 25, 80)
+
+cnt = len(portlist)
+
+print "(+)" Scanning "str(cnt)+" Total post."
+
+(+) Scanning 3 total ports.
